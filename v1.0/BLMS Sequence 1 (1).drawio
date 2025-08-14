@@ -1,0 +1,475 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.1.0">
+  <diagram name="Page-1" id="zYoQJKuruc59RscXdtNj">
+    <mxGraphModel dx="2265" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZP8F139_U9aVebwbNAbs-1" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" parent="1" vertex="1">
+          <mxGeometry x="-370" y="130" width="26.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-2" value="BankView" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-3" value="BankController" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-4" value="BankDAO" style="rounded=0;whiteSpace=wrap;html=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="140" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="ZP8F139_U9aVebwbNAbs-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-200" y="1500" as="sourcePoint" />
+            <mxPoint x="-90" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-6" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="1500" as="sourcePoint" />
+            <mxPoint x="200" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="ZP8F139_U9aVebwbNAbs-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1500" as="sourcePoint" />
+            <mxPoint x="25" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-8" value="Customer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-9" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-201.25" y="472" as="sourcePoint" />
+            <mxPoint x="-1.25" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1.25" y="492" as="sourcePoint" />
+            <mxPoint x="198.75" y="492" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-361.25" y="452" as="sourcePoint" />
+            <mxPoint x="-201.25" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1.25" y="604" as="sourcePoint" />
+            <mxPoint x="-201.25" y="604" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-201.25" y="624" as="sourcePoint" />
+            <mxPoint x="-371.25" y="624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-14" value="Request for loan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-346.25" y="450" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-15" value="Verify Details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-151.25" y="450" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-16" value="Loan Approval" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="43.75" y="470" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-17" value="Retun Load Id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-146.25" y="572" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-18" value="Send Loan Id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-336.25" y="594" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="198.75" y="594" as="sourcePoint" />
+            <mxPoint x="3.75" y="594" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-20" value="Provides Loan Id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="38.75" y="564" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-378.75" y="760.3299999999999" as="sourcePoint" />
+            <mxPoint x="-208.75" y="760.3299999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-22" value="Request Loan Status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-358.75" y="729.9999999999999" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-23" value="Request Loan Status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-163.75" y="738.66" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-24" value="Request Loan Status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="31.25" y="762" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-25" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-193.75" y="778.66" as="sourcePoint" />
+            <mxPoint x="-3.75" y="778.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-26" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6.25" y="802" as="sourcePoint" />
+            <mxPoint x="196.25" y="802" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-27" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3.75" y="912" as="sourcePoint" />
+            <mxPoint x="-203.75" y="912" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-28" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-203.75" y="932" as="sourcePoint" />
+            <mxPoint x="-373.75" y="932" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-29" value="Loan Status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-143.75" y="880" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-30" value="Loan Status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-338.75" y="902" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-31" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="196.25" y="902" as="sourcePoint" />
+            <mxPoint x="1.25" y="902" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-32" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22475%22%20y%3D%22282%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22275%22%20y%3D%22282%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22275%22%20y%3D%22302%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22105%22%20y%3D%22302%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22Provides%20Loan%20Id%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22325%22%20y%3D%22250%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%225%22%20value%3D%22Provides%20Loan%20Id%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22130%22%20y%3D%22272%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%226%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22675%22%20y%3D%22272%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22480%22%20y%3D%22272%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%227%22%20value%3D%22Loan%20ID%20generation%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22505%22%20y%3D%22242%22%20width%3D%22130%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3EL&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="81.25" y="872" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-33" value="Loan Status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="56.25" y="872" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-34" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-373.75" y="992" as="sourcePoint" />
+            <mxPoint x="-203.75" y="992" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-35" value="Provide Update Details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-371.25" y="952" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-36" value="Request Update Details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-168.75" y="982" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-37" value="Send for Updation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="36.25" y="1012" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-38" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-193.75" y="1022" as="sourcePoint" />
+            <mxPoint x="-3.75" y="1022" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-39" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1.25" y="1052" as="sourcePoint" />
+            <mxPoint x="191.25" y="1052" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-40" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="193.75" y="1160" as="sourcePoint" />
+            <mxPoint x="3.75" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-41" value="Success Message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="36.25" y="1106.66" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-42" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1156.99" as="sourcePoint" />
+            <mxPoint x="-190" y="1156.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-43" value="Success Message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-158.75" y="1128.66" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-44" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-208.75" y="1180.66" as="sourcePoint" />
+            <mxPoint x="-398.75" y="1180.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-45" value="Success Message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-363.75" y="1148.66" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-46" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3.75" y="1211.34" as="sourcePoint" />
+            <mxPoint x="198.75" y="1211.34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-47" value="View Pending Loan Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="23.75" y="1181.34" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-48" value="Pending Loan Request Details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="13.75" y="1241.34" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-49" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="8.75" y="1331.34" as="sourcePoint" />
+            <mxPoint x="198.75" y="1331.34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-50" value="Approve / Reject a Loan Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1.25" y="1299.34" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-51" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="198.75" y="1271.34" as="sourcePoint" />
+            <mxPoint x="8.75" y="1271.34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-52" value="Granted / Rejected Loan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="30" y="1411.34" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-53" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="1441.34" as="sourcePoint" />
+            <mxPoint x="5" y="1441.34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-54" value="Granted / Rejected Loan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-167.5" y="1430" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-55" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2.5" y="1460" as="sourcePoint" />
+            <mxPoint x="-192.5" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-56" value="Granted / Rejected Loan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-372.5" y="1460" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-57" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-207.5" y="1490" as="sourcePoint" />
+            <mxPoint x="-397.5" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-58" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="203.75" y="654" as="sourcePoint" />
+            <mxPoint x="3.75" y="654" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-59" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="3.75" y="684" as="sourcePoint" />
+            <mxPoint x="-196.25" y="684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-60" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="-196.25" y="704" as="sourcePoint" />
+            <mxPoint x="-396.25" y="704" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-61" value="Provides a Fialure Message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-186.25" y="652" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-62" value="Provides a Fialure Message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-388.75" y="672" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-63" value="Returns Loan Id Failure" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="23.75" y="622" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-64" value="DB" style="rounded=0;whiteSpace=wrap;html=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="342.5" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-65" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="403" y="1500" as="sourcePoint" />
+            <mxPoint x="402.5" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-66" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22475%22%20y%3D%22282%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22275%22%20y%3D%22282%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22275%22%20y%3D%22302%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22105%22%20y%3D%22302%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22Provides%20Loan%20Id%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22325%22%20y%3D%22250%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%225%22%20value%3D%22Provides%20Loan%20Id%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22130%22%20y%3D%22272%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%226%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22675%22%20y%3D%22272%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22480%22%20y%3D%22272%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%227%22%20value%3D%22Loan%20ID%20generation%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22505%22%20y%3D%22242%22%20width%3D%22130%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3EL&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="288.75" y="832" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-67" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="198.75" y="510.33000000000004" as="sourcePoint" />
+            <mxPoint x="398.75" y="510.33000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-68" value="Generate Loan ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="233.75" y="488.33000000000004" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-69" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="396.25" y="552" as="sourcePoint" />
+            <mxPoint x="201.25" y="552" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-70" value="Loan ID generation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="226.25" y="522" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-71" value="Request Loan Status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="231.25" y="800.33" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-72" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="206.25" y="830.33" as="sourcePoint" />
+            <mxPoint x="396.25" y="830.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-73" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="398.75" y="886.1700000000001" as="sourcePoint" />
+            <mxPoint x="203.75" y="886.1700000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-74" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22475%22%20y%3D%22282%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22275%22%20y%3D%22282%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22275%22%20y%3D%22302%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22105%22%20y%3D%22302%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22Provides%20Loan%20Id%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22325%22%20y%3D%22250%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%225%22%20value%3D%22Provides%20Loan%20Id%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22130%22%20y%3D%22272%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%226%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3Brounded%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22675%22%20y%3D%22272%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22480%22%20y%3D%22272%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%227%22%20value%3D%22Loan%20ID%20generation%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22505%22%20y%3D%22242%22%20width%3D%22130%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3EL&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="286.25" y="850.33" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-75" value="Loan Status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="261.25" y="850.33" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-76" value="Send for Updation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="236.25" y="1030.33" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-77" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="201.25" y="1070.33" as="sourcePoint" />
+            <mxPoint x="391.25" y="1070.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-78" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="391.25" y="1120.33" as="sourcePoint" />
+            <mxPoint x="201.25" y="1120.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-79" value="Success Message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="236.25" y="1088.33" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-80" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="201.25" y="1233.6699999999998" as="sourcePoint" />
+            <mxPoint x="396.25" y="1233.6699999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-81" value="View Pending Loan Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="221.25" y="1203.6699999999998" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-82" value="Pending Loan Request Details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="211.25" y="1263.6699999999998" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-83" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="206.25" y="1353.6699999999998" as="sourcePoint" />
+            <mxPoint x="396.25" y="1353.6699999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-84" value="Approve / Reject a Loan Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="196.25" y="1321.6699999999998" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-85" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="396.25" y="1293.6699999999998" as="sourcePoint" />
+            <mxPoint x="206.25" y="1293.6699999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-86" value="Granted / Rejected Loan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="226.25" y="1371.34" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-87" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1411.34" as="sourcePoint" />
+            <mxPoint x="200" y="1411.34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-88" value="" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=14;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="60" height="60" relative="1" as="geometry">
+            <mxPoint x="400" y="564" as="sourcePoint" />
+            <mxPoint x="200" y="564" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-89" value="Failed to generate Loan Id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="216.25" y="602" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-90" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-200" y="262" as="sourcePoint" />
+            <mxPoint y="262" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-91" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="282" as="sourcePoint" />
+            <mxPoint x="200" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-92" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-360" y="242" as="sourcePoint" />
+            <mxPoint x="-200" y="242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-93" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="394" as="sourcePoint" />
+            <mxPoint x="-200" y="394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-94" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-200" y="414" as="sourcePoint" />
+            <mxPoint x="-370" y="414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-95" value="Application Submitted" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-360" y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-96" value="Save Application Details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="240" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-97" value="Save Application Details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="20" y="260" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-98" value="Retun User Id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-145" y="362" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-99" value="Send User Id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-335" y="384" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-100" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="384" as="sourcePoint" />
+            <mxPoint x="5" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-101" value="Provides User Id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="354" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-102" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="300.33000000000004" as="sourcePoint" />
+            <mxPoint x="400" y="300.33000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-103" value="Store Application Details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="220" y="278.33000000000004" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-104" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="397.5" y="342.00000000000006" as="sourcePoint" />
+            <mxPoint x="202.5" y="342.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZP8F139_U9aVebwbNAbs-105" value="User ID generation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="232.5" y="312.00000000000006" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
