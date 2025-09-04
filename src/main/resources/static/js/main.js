@@ -139,12 +139,14 @@ function showLoginPage() {
                                     <a href="/register.html" id="showRegisterBtn">Sign Up</a>
                                 </p>
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         `;
         
+        // Setup login form listeners
         // Setup login form listeners
         setupLoginListeners();
         
