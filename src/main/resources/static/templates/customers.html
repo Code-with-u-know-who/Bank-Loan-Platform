@@ -1,0 +1,59 @@
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <h2><i class="fas fa-users me-2"></i>Customer Management</h2>
+                <p class="text-muted">Manage customer information and KYC verification.</p>
+            </div>
+            <button class="btn btn-primary" onclick="showAddCustomerModal()">
+                <i class="fas fa-plus me-2"></i>Add New Customer
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-lg-6 mb-2">
+        <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-search"></i></span>
+            <input type="text" class="form-control" id="customerSearch"
+                   placeholder="Search customers by name, email, or phone..."
+                   oninput="searchCustomers(this.value)">
+        </div>
+    </div>
+    <div class="col-lg-3 mb-2">
+        <select class="form-select" id="kycStatusFilter" onchange="filterCustomers()">
+            <option value="">All KYC Statuses</option>
+            <option value="Verified">Verified</option>
+            <option value="Pending">Pending</option>
+        </select>
+    </div>
+    <div class="col-lg-3 mb-2">
+        <select class="form-select" id="customerStatusFilter" onchange="filterCustomers()">
+            <option value="">All Statuses</option>
+            <option value="true">Active</option>
+            <option value="false">Inactive</option>
+        </select>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="table-responsive">
+            <table class="table table-hover table-striped" id="customersTable">
+                <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Contact</th>
+                    <th scope="col">KYC Status</th>
+                    <th scope="col">Active</th>
+                    <th scope="col">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
